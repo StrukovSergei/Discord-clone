@@ -42,7 +42,7 @@ export const ServerHeader = ({
                         </DropdownMenuItem>
                     )}
                     {isAdmin && (
-                        <DropdownMenuItem className="focus:outline-none  hover:bg-zinc-700/10
+                        <DropdownMenuItem onClick={() => onOpen("editServer", { server })} className="focus:outline-none  hover:bg-zinc-700/10
                         dark:hover:bg-zinc-700/50 transition px-3 py-2 text-sm cursor-pointer flex items-center">
                             Server Settings
                             <Settings className="h-4 w-4 ml-auto" />

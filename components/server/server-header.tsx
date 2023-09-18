@@ -56,7 +56,7 @@ export const ServerHeader = ({
                         </DropdownMenuItem>
                     )}
                     {isModerator && (
-                        <DropdownMenuItem className="focus:outline-none  hover:bg-zinc-700/10
+                        <DropdownMenuItem onClick={() => onOpen("createChannel")} className="focus:outline-none  hover:bg-zinc-700/10
                         dark:hover:bg-zinc-700/50 transition px-3 py-2 text-sm cursor-pointer flex items-center">
                             Create Channel
                             <PlusCircle className="h-4 w-4 ml-auto" />

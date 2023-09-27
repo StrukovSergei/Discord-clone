@@ -53,8 +53,10 @@ export const ChatInput = ({
 
             form.reset()
             router.refresh()
+            
         } catch (error) {
             console.log(error)
+
         }
     }
 
